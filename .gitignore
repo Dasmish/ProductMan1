@@ -1,0 +1,7 @@
+.idea/
+node_modules
+.sublime-gulp.cach
+package-lock.json
+*.exe
+*.cfg
+*.psd

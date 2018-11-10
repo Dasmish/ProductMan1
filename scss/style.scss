@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all .4s ease-in;
+}
+html{
+	font-size: 10px;
+	height: 100%;
+}
+body{
+	min-height: 100%;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	background-color: #eeeeee;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.header{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	
+	&__title{
+		font-family: Roboto;
+		font-weight: 900;
+		font-size: 4.8rem;
+	}
+	&__links{
+		display: inline-flex;
+		align-items: center;
+		list-style-type: none;
+		font-family: Roboto;
+		font-size: 1.8rem;
+		margin: 0;
+		padding: 0;
+		li{
+			margin-right: 45px;
+		}
+	}
+}
+
+.main{
+	margin-top: 105px;
+	.slider{
+		&__title{
+			font-size: 15rem;
+			font-family: Raleway;
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+		&__text{
+			font-size: 2.4rem;
+			font-family: Roboto;
+		}
+	}
+
+	.products{
+		margin-top: 100px;
+		min-width: 1200px;
+		background-color: #FFF;
+		&__title{
+			font-family: Raleway;
+			font-weight: 900;
+			font-size: 4.8rem;
+		}
+		&__subtitle{
+			font-family: Raleway;
+			font-size: 1.8rem;
+		}
+		&__items{
+			margin: 80px 70px 70px 70px;
+			.item{
+				width: 50%;
+			}
+		}
+	}
+}
